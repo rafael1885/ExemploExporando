@@ -1,0 +1,15 @@
+C:\repositorio\ExemploExporando\obj\Debug\net8.0\ExemploExporando.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorio\ExemploExporando\obj\Debug\net8.0\ExemploExporando.AssemblyInfoInputs.cache
+C:\repositorio\ExemploExporando\obj\Debug\net8.0\ExemploExporando.AssemblyInfo.cs
+C:\repositorio\ExemploExporando\obj\Debug\net8.0\ExemploExporando.csproj.CoreCompileInputs.cache
+C:\repositorio\ExemploExporando\obj\Debug\net8.0\ExemploExporando.sourcelink.json
+c:\repositorio\ExemploExporando\bin\Debug\net8.0\ExemploExporando.exe
+C:\repositorio\ExemploExporando\bin\Debug\net8.0\ExemploExporando.deps.json
+C:\repositorio\ExemploExporando\bin\Debug\net8.0\ExemploExporando.runtimeconfig.json
+c:\repositorio\ExemploExporando\bin\Debug\net8.0\ExemploExporando.dll
+c:\repositorio\ExemploExporando\bin\Debug\net8.0\ExemploExporando.pdb
+c:\repositorio\ExemploExporando\obj\Debug\net8.0\ExemploExporando.dll
+c:\repositorio\ExemploExporando\obj\Debug\net8.0\refint\ExemploExporando.dll
+c:\repositorio\ExemploExporando\obj\Debug\net8.0\ExemploExporando.pdb
+C:\repositorio\ExemploExporando\obj\Debug\net8.0\ExemploExporando.genruntimeconfig.cache
+C:\repositorio\ExemploExporando\obj\Debug\net8.0\ref\ExemploExporando.dll

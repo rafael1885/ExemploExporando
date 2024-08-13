@@ -13,7 +13,7 @@ namespace ExemploExporando.Models
 
         public void Apresentar()
         {
-            Console.WriteLine($"Nme:{Nome}, Idade:{Idade}");
+            Console.WriteLine($"Nome:{Nome}, Idade:{Idade}");
         }
     }
 }
