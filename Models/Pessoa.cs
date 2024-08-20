@@ -7,7 +7,16 @@ namespace ExemploExporando.Models
 {
     public class Pessoa
     {
-        public string Nome { get; set; }
+ 
+       private string _nome;
+
+        public string Nome 
+        { 
+            get; 
+           
+            set;
+            
+         }
         public int Idade { get; set; }  
 
 
