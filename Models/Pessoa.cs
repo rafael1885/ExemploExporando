@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
 namespace ExemploExporando.Models
@@ -9,20 +10,52 @@ namespace ExemploExporando.Models
     {
  
        private string _nome;
-
+       private int _idade;
+       private string _nomeCompleto;
+       public string Sobrenome {get; set;}
+       public string NomeCompleto => $"{Nome} {Sobrenome}" ;
         public string Nome 
         { 
-            get; 
-           
-            set;
+            get => _nome.ToUpper();
             
-         }
-        public int Idade { get; set; }  
+           
+            set
+            {
 
+            if (value == "")
+            {
+                throw new ArgumentException ("O nome não pode ser vazio");
+                
+            }
+
+            _nome = value;
+            
+            }
+         }
+       
+        public int Idade 
+        { 
+            get => _idade; 
+            
+            set 
+            {
+                if(value < 0)
+                {
+                    throw new ArgumentException ("A idade não pode ser menor que 0");
+                
+                }
+
+                _idade = value;
+            }
+            
+            
+        }  
+        
+   
 
         public void Apresentar()
         {
-            Console.WriteLine($"Nome:{Nome}, Idade:{Idade}");
+            Console.WriteLine($"Nome:{NomeCompleto}, Idade:{Idade}");
         }
     }
 }
